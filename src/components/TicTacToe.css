@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table td{
+    border: 1px solid grey;
+    width: 75px;
+    height: 75px;
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+
+button{
+    border: 1px solid yellowgreen;
+    width: 100px;
+    height: 35px;
+    border-radius: 10%;
+    color: rgb(153, 8, 8);
+    background-color: blanchedalmond;    
+}
+button:hover{
+    background-color: rgb(250, 120, 120);
+    color: blanchedalmond;
+}
